@@ -83,7 +83,7 @@ $desktop-breakpoint: 1200px;
     flex-direction: row;
     justify-content: flex-start;
     position: relative;
-    animation: fade-in 1.5s ease, slide-in 1.2s ease;
+    animation: fade-in 1.5s ease, slide-in 3.2s ease;
 
     .heroo-content {
       flex-basis: 50%;
@@ -97,7 +97,7 @@ $desktop-breakpoint: 1200px;
         align-self: center;
         display: flex;
         flex-direction: column;
-        animation: scaleDown 6s ease 2s;
+        animation: scaleDown 6s ease 2s ;
 
         .heroo-byline {
           width: 60%;
@@ -163,7 +163,8 @@ $desktop-breakpoint: 1200px;
         margin-right: auto; 
         align-self: flex-start;
         overflow: hidden;
-        animation: reveal-info 4s ease 3s;
+        animation: reveal-info 18s ease 3s  ;
+        animation-iteration-count: infinite;
       }
     }
 
@@ -179,7 +180,8 @@ $desktop-breakpoint: 1200px;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        animation: scaleDown 6s ease 2s;
+        animation: scaleDown 10s ease 20s ;
+        animation-iteration-count: infinite;
 
         img {
           width: 100%;
